@@ -5,5 +5,5 @@ const port = 3000;
 app.use(express.json());
 app.use("/tarefas", tarefaRoutes);
 app.listen(port, () => {
-  console.log(`Servidor rodando na porta ${port}`);
+  console.log(`Hello Kitty se escondeu atrás da porta ${port}`);
 });
